@@ -16,6 +16,8 @@ Dummy USB load
 ## USBloadとUSBload2の違い
 モバイルバッテリーによってオス側が差し込めないものがあるとのご意見を戴き、USBload2はAタイプのオスコネクタをつけました。
 
+※USBload2.1では使用するマイコンがSTC8G1K08に変更になっていますが、使い方は変更ありません。
+
 ![usbload2](https://user-images.githubusercontent.com/10735253/86889670-181ae800-c137-11ea-87fa-b8d8b5a2260b.jpg)
 
 ## 使い方
@@ -48,9 +50,9 @@ Dummy USB load
 モジュールの消費電流値 : 100mA～400mA  
 モジュールの電流増減インターバル : 約10～30秒  
 
-## （自作する人向け）設計データ・ファームウエア
-ATtiny10の書き込みは以下を参照。
-https://make.kosakalab.com/make/electronic-work/arduino-ide-dev/
+## （参考：自作する方向け）
+
+USBload2.1（使用マイコン: STC8G1K08）のプログラムの書き込み方法はUSBload21_pgm.pdfを参照してください。
 
 ## 終わりに
 
